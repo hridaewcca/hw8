@@ -12,7 +12,7 @@ void loop() {
     delay(10);
   }
 
-  for (int fadeValue = 1000 ; fadeValue = 0; fadeValue --) {
+  for (int fadeValue = 1000 ; fadeValue >= 0; fadeValue --) {
     analogWrite(13, fadeValue);
     delay(10);
   }
